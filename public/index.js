@@ -27,12 +27,10 @@ const convertTime = (seconds) => {
   };
 };
 
-// getAvailabilities().then((res) => console.log(res));
-
 const injectAvailabilities = async () => {
   const availabilities = (await getAvailabilities()).availabilities;
   const internationalization = await getInternationalization(
-    Internationalization.fr
+    Internationalization.fr // Change language here
   );
 
   const labels = availabilities.map((x) => {
@@ -50,7 +48,8 @@ const injectAvailabilities = async () => {
   }
 
   const hours = availabilities.map((x) => {
-    if (x.closed) return `<div class="closed block">Fermé</div>`;
+    if (x.closed)
+      return `<div class="closed block">${internationalization.closed}</div>`;
     let singleInterval = true;
 
     const from1Time = convertTime(x.from1);

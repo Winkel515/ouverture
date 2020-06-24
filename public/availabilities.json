@@ -1,0 +1,84 @@
+{
+  "availabilities": [
+    {
+      "label": "sunday",
+      "closed": true,
+      "from1": null,
+      "to1": null,
+      "from2": null,
+      "to2": null
+    },
+    {
+      "label": "monday",
+      "closed": false,
+      "from1": 28800,
+      "to1": 61200,
+      "from2": null,
+      "to2": null
+    },
+    {
+      "label": "tuesday",
+      "closed": false,
+      "from1": 28800,
+      "to1": 43200,
+      "from2": 46800,
+      "to2": 61200
+    },
+    {
+      "label": "wednesday",
+      "closed": false,
+      "from1": 28800,
+      "to1": 43200,
+      "from2": 46800,
+      "to2": 61200
+    },
+    {
+      "label": "thursday",
+      "closed": false,
+      "from1": 28800,
+      "to1": 43200,
+      "from2": 46800,
+      "to2": 61200
+    },
+    {
+      "label": "friday",
+      "closed": false,
+      "from1": 28800,
+      "to1": 43200,
+      "from2": 46800,
+      "to2": 61200
+    },
+    {
+      "label": "saturday",
+      "closed": false,
+      "from1": 28800,
+      "to1": 43200,
+      "from2": null,
+      "to2": null
+    },
+    {
+      "label": "quebec_national_day",
+      "closed": true,
+      "from1": null,
+      "to1": null,
+      "from2": null,
+      "to2": null
+    },
+    {
+      "label": "canada_day",
+      "closed": true,
+      "from1": null,
+      "to1": null,
+      "from2": null,
+      "to2": null
+    },
+    {
+      "label": "18 Juillet - 2 Août",
+      "closed": true,
+      "from1": null,
+      "to1": null,
+      "from2": null,
+      "to2": null
+    }
+  ]
+}
